@@ -1,40 +1,37 @@
 *{
-    margin:0;
+    margin: 0;
     padding: 0;
-    font-family: 'Lobster', cursive;
+    box-sizing: border-box;
 }
 body{
-    background-color:rgb(4, 4, 102);
+    background-color: palevioletred;
+    margin-top: 50px;
+    margin-left:500px ;
 }
-.container{
-    width: 70%;
-    margin:auto;
-    text-align: center;
-}
-.dice{
-    text-align: center;
-    display: inline-block;
+.but{
+    width: 300px;
+    
+    border: 5px solid black;
+
+    background-color: aliceblue;
+    justify-content: center;
+    padding: 50px;
 }
 button{
-    text-align: center;
-    padding: 10px;
-    margin: 20px;
-    background-color:#00b894 ;
     
+    margin: 10px;
+    padding: 20px;
+    display: flex;
+    width: 100px;
+    justify-content: center;
+    background-color:black;
+    color: wheat;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 10px;
 }
-h1{
-    margin: 30px;
-    color: #f6b93b;
-    font-size: 6rem;
-    text-shadow: 5px 0 white;
-}
-p{
-   font-size: 2rem;
-   color: #00b894;
-  font-family: 'Lato', sans-serif;
-  text-shadow: 1px 1px white;
-  padding-bottom: 10px;
-}
-img{
-    width: 80%;
+button:hover{
+    color:black ;
+    background-color: white;
+    
 }
