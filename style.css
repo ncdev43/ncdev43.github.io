@@ -1,0 +1,40 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Lobster', cursive;
+}
+body{
+    background-color:rgb(4, 4, 102);
+}
+.container{
+    width: 70%;
+    margin:auto;
+    text-align: center;
+}
+.dice{
+    text-align: center;
+    display: inline-block;
+}
+button{
+    text-align: center;
+    padding: 10px;
+    margin: 20px;
+    background-color:#00b894 ;
+    
+}
+h1{
+    margin: 30px;
+    color: #f6b93b;
+    font-size: 6rem;
+    text-shadow: 5px 0 white;
+}
+p{
+   font-size: 2rem;
+   color: #00b894;
+  font-family: 'Lato', sans-serif;
+  text-shadow: 1px 1px white;
+  padding-bottom: 10px;
+}
+img{
+    width: 80%;
+}
